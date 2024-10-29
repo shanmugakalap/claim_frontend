@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Background color for authenticated pages */
+.authenticated {
+  background-color: #b1c8eb;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Background color for the login page */
+.login-screen {
+  background-color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Basic styling for the Navbar */
+.navbar {
+  background-color: #333;
+  padding: 1em;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar a:hover {
+  text-decoration: underline;
 }

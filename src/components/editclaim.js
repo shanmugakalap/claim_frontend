@@ -135,7 +135,7 @@ const EditClaim = () => {
                     <legend>Claim Details</legend>
                     <label>
                         Claim ID:
-                        <input type="number" name="claim_id" value={claimData.claim_id || ''} onChange={handleClaimChange} />
+                        <input type="number" name="claim_id" value={claimData.claim_id || ''} disabled />
                     </label>
                     <label>
                         Claim Status:

@@ -14,14 +14,14 @@ const JsonFileUpload = () => {
             const data = await response.json();
 
             if (response.ok) {
-                // Assuming backend sends an array of messages for each claim processed
                 setMessages([data.success] || []);
+                alert(data.success);
             } else {
-                // Display error messages if something went wrong
                 setMessages([data.error] || []);
+                alert(data.error);
             }
         } catch (error) {
-            setMessages([`Error: ${error.message}`]);
+            alert('An unexpected error occurred: ' + error.message);
         } finally {
             setLoading(false);
         }
