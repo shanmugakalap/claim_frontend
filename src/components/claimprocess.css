@@ -19,7 +19,7 @@ th {
 }
 
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: #007bff; /* Bootstrap primary color */
     color: white;
     padding: 5px 10px;
     border: none;
@@ -27,6 +27,3 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #45a049;
-}
