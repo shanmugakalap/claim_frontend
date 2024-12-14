@@ -1,0 +1,223 @@
+[
+    {
+        "patient_name": "Johnson",
+        "patient_address": "123 Main St, Springfield, IL",
+        "discount_percentage": 10.00,
+        "claim_id": null,
+        "type_of_plan": "Gold"
+    },
+    {
+        "patient_name": "Alice Johnson",
+        "patient_address": "123 Main St, Springfield, IL",
+        "discount_percentage": 10.00,
+        "claim_id": null,
+        "type_of_plan": "Gold"
+    },
+    {
+        "patient_name": "Bob Smith",
+        "patient_address": "456 Elm St, Springfield, IL",
+        "discount_percentage": 15.00,
+        "claim_id": null,
+        "type_of_plan": "Silver"
+    },
+    {
+        "patient_name": "Catherine Green",
+        "patient_address": "789 Oak St, Springfield, IL",
+        "discount_percentage": 20.00,
+        "claim_id": null,
+        "type_of_plan": "Platinum"
+    },
+    {
+        "patient_name": "David Brown",
+        "patient_address": "321 Pine St, Springfield, IL",
+        "discount_percentage": 5.00,
+        "claim_id": null,
+        "type_of_plan": "Gold"
+    },
+    {
+        "patient_name": "Eva White",
+        "patient_address": "654 Maple St, Springfield, IL",
+        "discount_percentage": 12.50,
+        "claim_id": null,
+        "type_of_plan": "Silver"
+    },
+    {
+        "patient_name": "Frank Black",
+        "patient_address": "987 Cedar St, Springfield, IL",
+        "discount_percentage": 0.00,
+        "claim_id": null,
+        "type_of_plan": "Basic"
+    },
+    {
+        "patient_name": "Grace Lee",
+        "patient_address": "159 Walnut St, Springfield, IL",
+        "discount_percentage": 8.00,
+        "claim_id": null,
+        "type_of_plan": "Gold"
+    },
+    {
+        "patient_name": "Henry Taylor",
+        "patient_address": "753 Birch St, Springfield, IL",
+        "discount_percentage": 18.00,
+        "claim_id": null,
+        "type_of_plan": "Platinum"
+    },
+    {
+        "patient_name": "Isabella King",
+        "patient_address": "852 Cherry St, Springfield, IL",
+        "discount_percentage": 7.50,
+        "claim_id": null,
+        "type_of_plan": "Silver"
+    },
+    {
+        "patient_name": "Jack White",
+        "patient_address": "951 Spruce St, Springfield, IL",
+        "discount_percentage": 11.00,
+        "claim_id": null,
+        "type_of_plan": "Gold"
+    }
+]
+
+
+[
+    {
+        "patient_id": 1,
+        "claim_status": "New",
+        "disease_name": "Flu",
+        "date_of_service": "2023-01-15",
+        "treatment_given": "Antiviral medication",
+        "total_amount": 150.00,
+        "lab_test": "Flu test",
+        "hospital_name": "Springfield General Hospital",
+        "hospital_address": "123 Hospital Rd, Springfield, IL",
+        "hospital_city": "Springfield",
+        "hospital_state": "IL",
+        "hospital_pincode": "62701"
+    },
+    {
+        "patient_id": 2,
+        "claim_status": "New",
+        "disease_name": "Back Pain",
+        "date_of_service": "2023-02-20",
+        "treatment_given": "Physical therapy",
+        "total_amount": 200.00,
+        "lab_test": "X-Ray",
+        "hospital_name": "Springfield Orthopedic Clinic",
+        "hospital_address": "456 Clinic Ave, Springfield, IL",
+        "hospital_city": "Springfield",
+        "hospital_state": "IL",
+        "hospital_pincode": "62702"
+    },
+    {
+        "patient_id": 3,
+        "claim_status": "New",
+        "disease_name": "Headache",
+        "date_of_service": "2023-03-05",
+        "treatment_given": "Pain relief medication",
+        "total_amount": 100.00,
+        "lab_test": "None",
+        "hospital_name": "Springfield Medical Center",
+        "hospital_address": "789 Medical Blvd, Springfield, IL",
+        "hospital_city": "Springfield",
+        "hospital_state": "IL",
+        "hospital_pincode": "62703"
+    },
+    {
+        "patient_id": 4,
+        "claim_status": "New",
+        "disease_name": "Allergy",
+        "date_of_service": "2023-04-10",
+        "treatment_given": "Allergy medication",
+        "total_amount": 120.00,
+        "lab_test": "Allergy test",
+        "hospital_name": "Springfield Allergy Clinic",
+        "hospital_address": "321 Allergy St, Springfield, IL",
+        "hospital_city": "Springfield",
+        "hospital_state": "IL",
+        "hospital_pincode": "62704"
+    },
+    {
+        "patient_id": 5,
+        "claim_status": "New",
+        "disease_name": "Anxiety",
+        "date_of_service": "2023-05-15",
+        "treatment_given": "Counseling sessions",
+        "total_amount": 300.00,
+        "lab_test": "None",
+        "hospital_name": "Springfield Mental Health Clinic",
+        "hospital_address": "654 Mental Health Rd, Springfield, IL",
+        "hospital_city": "Springfield",
+        "hospital_state": "IL",
+        "hospital_pincode": "62705"
+    },
+    {
+        "patient_id": 6,
+        "claim_status": "New",
+        "disease_name": "Fracture",
+        "date_of_service": "2023-06-20",
+        "treatment_given": "Cast and rehabilitation",
+        "total_amount": 450.00,
+        "lab_test": "CT Scan",
+        "hospital_name": "Springfield Trauma Center",
+        "hospital_address": "987 Trauma St, Springfield, IL",
+        "hospital_city": "Springfield",
+        "hospital_state": "IL",
+        "hospital_pincode": "62706"
+    },
+    {
+        "patient_id": 7,
+        "claim_status": "New",
+        "disease_name": "Diabetes",
+        "date_of_service": "2023-07-25",
+        "treatment_given": "Insulin therapy",
+        "total_amount": 250.00,
+        "lab_test": "Blood sugar test",
+        "hospital_name": "Springfield Diabetes Center",
+        "hospital_address": "159 Diabetes Rd, Springfield, IL",
+        "hospital_city": "Springfield",
+        "hospital_state": "IL",
+        "hospital_pincode": "62707"
+    },
+    {
+        "patient_id": 8,
+        "claim_status": "New",
+        "disease_name": "Flu",
+        "date_of_service": "2023-08-30",
+        "treatment_given": "None",
+        "total_amount": 0.00,
+        "lab_test": "Flu test",
+        "hospital_name": "Springfield General Hospital",
+        "hospital_address": "123 Hospital Rd, Springfield, IL",
+        "hospital_city": "Springfield",
+        "hospital_state": "IL",
+        "hospital_pincode": "62701"
+    },
+    {
+        "patient_id": 9,
+        "claim_status": "New",
+        "disease_name": "Cold",
+        "date_of_service": "2023-09-10",
+        "treatment_given": "Rest and hydration",
+        "total_amount": 75.00,
+        "lab_test": "None",
+        "hospital_name": "Springfield Family Clinic",
+        "hospital_address": "258 Family St, Springfield, IL",
+        "hospital_city": "Springfield",
+        "hospital_state": "IL",
+        "hospital_pincode": "62708"
+    },
+    {
+        "patient_id": 1,
+        "claim_status": "New",
+        "disease_name": "Chest Pain",
+        "date_of_service": "2023-10-05",
+        "treatment_given": "Cardiac evaluation",
+        "total_amount": 500.00,
+        "lab_test": "ECG",
+        "hospital_name": "Springfield Heart Institute",
+        "hospital_address": "369 Heart St, Springfield, IL",
+        "hospital_city": "Springfield",
+        "hospital_state": "IL",
+        "hospital_pincode": "62709"
+    }
+]
